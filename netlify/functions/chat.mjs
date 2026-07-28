@@ -1,7 +1,7 @@
 // netlify/functions/chat.mjs
 // Netlify function using ESM syntax. Node 18+ required (fetch is built-in).
 
-const MODEL = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
+const MODEL = process.env.GEMINI_MODEL || 'gemini-3.6-flash';
 const API_KEY = process.env.GOOGLE_API_KEY;
 
 export async function handler(event) {
